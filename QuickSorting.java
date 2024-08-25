@@ -44,7 +44,7 @@ class Sorting {
         int i = start, j = end;
 
         while (i < pivotIndex && j > pivotIndex) {
-            while (Arr[i] <= pivot) {
+            while (Arr[i] < pivot) {
                 i++;
             }
             while (Arr[j] > pivot) {
