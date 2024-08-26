@@ -1,3 +1,4 @@
+// time complexity of O(n log n).
 import java.util.Scanner;
 
 class QuickSorting {
